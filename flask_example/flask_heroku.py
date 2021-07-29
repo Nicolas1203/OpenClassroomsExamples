@@ -36,6 +36,4 @@ def predict():
 # Define endpoint for flask
 app.add_url_rule('/predict', 'predict', predict)
 
-# Run app.
-# Note : comment this line if you want to deploy on heroku
-app.run()
+# The only difference with flash_example is that we dont run the app at the end
